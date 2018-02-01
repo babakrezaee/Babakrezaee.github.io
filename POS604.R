@@ -1,8 +1,9 @@
-# Estimation and postestimation commands
-
+---
+title: Estimation and postestimation commands
+---
 Below, I list some of postestimation commands that you can use/ need to use after running a Logit model:
 
-##
+## A
 ```
 use "https://github.com/babakrezaee/POS-604/blob/master/Week2/Braith_statecap_JPR.dta?raw=true", clear
 logit ncivwar pop_nc gdp_nc polity2l polity2sq
@@ -24,4 +25,4 @@ Dog     & Basketball & Orange \\ \hline
 ***/
 
 
-$X^2=\sum_i^t$
+$$X^2=\sum_i^t$$
