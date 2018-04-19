@@ -1,3 +1,5 @@
+# Panel Data: Fixed-Effects vs Random-Effects
+
 reg Violence_count  ///
  Nightlight_mean RoadDensity_mean Diamond InfantMortality_mean Mineral Petroleum Population_mean_ipolate area
  
