@@ -1,6 +1,6 @@
 ## Welcome to my GitHub Web Page
 
-Here, I post the handouts, slides, and codes that I use in my methods courses and workshops. For my professional website and more information on my research, please see [www.Babakrezaee.com](www.Babakrezaee.com)
+Here, I post the handouts, slides, and codes that I use in my methods courses and workshops. For my professional website and more information on my research, please see www.Babakrezaee.com.
 
 
 [Political Science Graduate Mathematics and Statistics Boot Camp](https://github.com/babakrezaee/MethodsCourses/blob/master/Political%20Science%20Graduate%20Mathematics%20and%20Statistics%20Boot%20Camp/PoliSciMathCamp_2018.pdf)
