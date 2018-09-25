@@ -1,3 +1,8 @@
-## Teaching at Sabanci University
+---
+title: This will be used as the title-tag of the page head
+---
 
-Hello! Here are slides and files of courses that I teach at Sabanci Univeristy.
+hello
+=====
+
+**You are here!**
