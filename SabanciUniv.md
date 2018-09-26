@@ -1,5 +1,5 @@
 ---
-title: This will be used as the title-tag of the page head
+title: Sabanci University (Teaching)
 ---
 
 Here are the files and slides of course that I teach at Sabanci University.
