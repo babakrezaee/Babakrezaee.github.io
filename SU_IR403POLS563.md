@@ -14,3 +14,5 @@ Here are the files and slides of course that I teach at Sabanci University.
 [Week3: Collective Action and Contentious Politics](https://www.dropbox.com/s/qrd4yjiwv9u4soa/SU_IR_403POLS_563_Week3.pdf?dl=0)
 
 [Week 4:  NonViolent/Civil Resistance and Transition to Violent Resistance](https://www.dropbox.com/s/1ncqtwpqhqogyhp/SU_IR_403POLS_563_Week4.pdf?dl=0)
+
+[Week 6: Civil War](https://www.dropbox.com/s/11kioolo5r9veud/SU_IR_403POLS_563_Week6.pdf?dl=0)
