@@ -20,3 +20,6 @@ Here are the files and slides of course that I teach at Sabanci University.
 [Week 7: Terrorism](https://www.dropbox.com/s/fc055skgb8vjh7g/SU_IR_403POLS_563_Week7.pdf?dl=1)
 
 [Week 9:  Allegiance, Recruitment, and Socialization in Armed Groups](https://www.dropbox.com/s/zwhmgddq0x8dt9i/SU_IR_403POLS_563_Week9.pdf?dl=1)
+
+[Week 10:  Ethnic and Religious Violence](https://www.dropbox.com/s/io3lsdkq4wm0e95/SU_IR_403POLS_563_Week10.pdf?dl=1)
+
