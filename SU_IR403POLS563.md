@@ -24,4 +24,4 @@ Here are the files and slides of course that I teach at Sabanci University.
 [Week 10:  Ethnic and Religious Violence](https://www.dropbox.com/s/io3lsdkq4wm0e95/SU_IR_403POLS_563_Week10.pdf?dl=1)
 
 
-[Week 11: Strategic Violence Againts Civilians](https://www.dropbox.com/s/gtxo5fb8z2hp724/SU_IR_403POLS_563_Week11.pdf?dl=1)
+[Week 11: Strategic Violence Against Civilians](https://www.dropbox.com/s/gtxo5fb8z2hp724/SU_IR_403POLS_563_Week11.pdf?dl=1)
