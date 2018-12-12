@@ -25,3 +25,8 @@ Here are the files and slides of course that I teach at Sabanci University.
 
 
 [Week 11: Strategic Violence Against Civilians](https://www.dropbox.com/s/gtxo5fb8z2hp724/SU_IR_403POLS_563_Week11.pdf?dl=1)
+
+
+[Week 12: Transnational Forces and Civil Conflict](
+https://www.dropbox.com/s/xsd4nk7bi9d45je/SU_IR_403POLS_563_Week12.pdf?dl=1)
+
