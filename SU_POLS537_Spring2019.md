@@ -1,7 +1,8 @@
 ---
 title: Sabanci University (Teaching) POLS 537 (Spring 2019): Advanced Research Methods and Data Analysis in Political Science
 ---
-** Please do not reproduce any part of these notes without the author’s permission. Copyright © 2019**
+
+___Please do not reproduce any part of these notes without the author’s permission. Copyright © 2019___
 
  This course trains students to use statistical models for forecasting societal, mainly political, outcomes.
  The students learn how to use Machine Learning and Data Mining algorithms to explore topics such as measuring
