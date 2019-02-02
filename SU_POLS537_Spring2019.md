@@ -16,4 +16,5 @@ ___Please do not reproduce any part of these notes without the author’s permis
 * If you need to refrsh your mind on statistics and mathemetics for this course, you may go over the handout of [Political Science PhD Math Camp](https://github.com/babakrezaee/MethodsCourses/blob/master/Political%20Science%20Graduate%20Mathematics%20and%20Statistics%20Boot%20Camp/PoliSciMathCamp_2018.pdf) I prepared and taught at Arizona State Univeristy.
 
 
-[Week 2: Introduction](https://www.dropbox.com/s/c0yk9o9awlvpfgj/SU_IR_403POLS_563_Week1.pdf?dl=1)
+## Week 2: Discrete Probability Review and Naive Bayes
+[Handout](https://github.com/babakrezaee/MethodsCourses/POLS 537: Advanced Research Methods and Data Analysis in Political Science/Naive_Bayes_02022019.html)
