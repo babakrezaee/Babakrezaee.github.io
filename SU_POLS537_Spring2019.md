@@ -17,4 +17,4 @@ ___Please do not reproduce any part of these notes without the author’s permis
 
 
 ## Week 2: Discrete Probability Review and Naive Bayes
-[Handout](https://github.com/babakrezaee/MethodsCourses/POLS 537: Advanced Research Methods and Data Analysis in Political Science/Naive_Bayes_02022019.html)
+[Handout](Babakrezaee.github.io/SU_POLS537/Naive_Bayes_02022019.html)
