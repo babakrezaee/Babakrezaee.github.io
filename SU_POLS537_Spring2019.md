@@ -18,4 +18,4 @@ ___Please do not reproduce any part of these notes without the author’s permis
 
 ## Week 2: 
 
-[Week 2: Discrete Probability Review and Naive Bayes] (https://Babakrezaee.github.io/SU_POLS537/Naive_Bayes_02022019.html)
+* [Discrete Probability Review and Naive Bayes](https://Babakrezaee.github.io/SU_POLS537/Naive_Bayes_02022019.html)
