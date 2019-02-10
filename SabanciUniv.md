@@ -10,3 +10,4 @@ Here are the files and slides of course that I teach at Sabanci University.
 
 [POLS 537: Advanced Research Methods and Data Analysis in Political Science (Spring 2019)](https://babakrezaee.github.io/SU_POLS537_Spring2019)
 
+[Conflicts in the Middle East (Spring 2019)](https://babakrezaee.github.io/SU_POLS 448548)
