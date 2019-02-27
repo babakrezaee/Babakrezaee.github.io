@@ -19,4 +19,7 @@ Here, I post the handouts, slides, and codes that I use in my methods courses an
 
 [Advanced Research Methods and Data Analysis in Political Science](https://babakrezaee.github.io/SU_POLS537_Spring2019)
 
+## R workshop
+[R workshop](https://babakrezaee.github.io/R_Workshop)
+
 
