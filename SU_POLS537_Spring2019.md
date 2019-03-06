@@ -21,6 +21,8 @@ ___Please do not reproduce any part of these notes without the author’s permis
 * [Slides](https://www.dropbox.com/s/ap4fy4izyngtna5/Machine_Learning_and_Data_Mining_for_Social_Change_Dec2018_SU.pdf?dl=0)
 
 
-## Week 2: 
 
 * [Discrete Probability Review and Naive Bayes](https://Babakrezaee.github.io/SU_POLS537/Naive_Bayes_02022019.html)
+
+* [k-Narest Neighbor (K-NN)](https://Babakrezaee.github.io/SU_POLS537/KNN_03022019.html)
+
