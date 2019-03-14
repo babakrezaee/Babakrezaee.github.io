@@ -134,7 +134,11 @@ $(document).ready(function () {
 }
 </style>
 <p>In social sciences, we are often interested in studying the variations in an outcome variable, <span class="math inline">\(Y\)</span>-also known as dependent variable-conditional on a set of independent variables, <span class="math inline">\(X\)</span>-also known as predictors and features.This usually is written formally as:</p>
-<p> P(Y=y|X=x) \end{equation}</p>
+<span class="math display">\[\begin{equation}
+
+P(Y=y|X=x)
+
+\end{equation}\]</span>
 <p>One very common strategy in modeling this conditional probability is making some assumptions about the function, <span class="math inline">\(f(.)\)</span>, that maps <span class="math inline">\(X\)</span> to <span class="math inline">\(Y\)</span>, and then estimating its parameters. The <em>Ordinary Least Square (OLS)</em> has been one of the oldest and the most important tools of modeling association between two variables. Under Classic Assumptions of Linear Regression, an <em>OLS</em> estimator is the <em>Best Linear Unbiased Estimate, (BLUE)</em>. However, there are situations that these assumptions do not hold. We will return to addressing the violations of some of these assumptions in the following weeks. Here, we study <span class="math inline">\(K\)</span>-NN algorithm as a model-free algorithm, which impose less assumption into the prediction algorithm.Although <span class="math inline">\(K\)</span>-NN does not offer useful information about the quality and quantity of association between the outcome variable and the predictors, it often is an effective predicting algorithm.</p>
 <div id="a-simple-comparison-of-ols-and-k-nn-boston-housing-example" class="section level1">
 <h1>A simple Comparison of OLS and k-NN: Boston Housing Example</h1>
