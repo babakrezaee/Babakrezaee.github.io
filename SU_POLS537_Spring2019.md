@@ -26,3 +26,8 @@ ___Please do not reproduce any part of these notes without the author’s permis
 # [k-Narest Neighbor (K-NN)](https://Babakrezaee.github.io/SU_POLS537/KNN_03022019.html)
 
 # [Linear Models and Regularization](https://Babakrezaee.github.io/SU_POLS537/Linear_Models_and_Regularization_03182019.html)
+
+# [Maximum Likelihood Estimation](https://Babakrezaee.github.io/SU_POLS537/MLE_04092019.html)
+
+
+
