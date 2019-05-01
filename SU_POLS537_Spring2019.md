@@ -11,7 +11,7 @@ ___Please do not reproduce any part of these notes without the author’s permis
  
 
 
-# [Correlation Analysis vs.  Causal Inference vs.  Prediction/Forecasting](https://www.dropbox.com/s/l4tsh6swcp14loz/Forecasting_Political_Conflict_Syllabus_Sabanci_2018_01192019.pdf?dl=0)
+## [Correlation Analysis vs.  Causal Inference vs.  Prediction/Forecasting](https://www.dropbox.com/s/l4tsh6swcp14loz/Forecasting_Political_Conflict_Syllabus_Sabanci_2018_01192019.pdf?dl=0)
 
 ** A few of *R Markdown* cheetsheets: [here](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf) and [here](https://www.ethz.ch/content/dam/ethz/special-interest/math/statistics/sfs/Education/Advanced%20Studies%20in%20Applied%20Statistics/course-material-1719/Datenanalyse/rmarkdown-2.pdf). There are small differences between _GitHub Markdown_ and _R Markdown_. [Here](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) is a cheetsheet for _GitHub Markdown_.
 
@@ -21,13 +21,16 @@ ___Please do not reproduce any part of these notes without the author’s permis
 
 
 
-# [Discrete Probability Review and Naive Bayes](https://Babakrezaee.github.io/SU_POLS537/Naive_Bayes_02022019.html)
+## [Discrete Probability Review and Naive Bayes](https://Babakrezaee.github.io/SU_POLS537/Naive_Bayes_02022019.html)
 
-# [k-Narest Neighbor (K-NN)](https://Babakrezaee.github.io/SU_POLS537/KNN_03022019.html)
+## [k-Narest Neighbor (K-NN)](https://Babakrezaee.github.io/SU_POLS537/KNN_03022019.html)
 
-# [Linear Models and Regularization](https://Babakrezaee.github.io/SU_POLS537/Linear_Models_and_Regularization_03182019.html)
+## [Linear Models and Regularization](https://Babakrezaee.github.io/SU_POLS537/Linear_Models_and_Regularization_03182019.html)
 
-# [Maximum Likelihood Estimation](https://Babakrezaee.github.io/SU_POLS537/MLE_04092019.html)
+## [Maximum Likelihood Estimation](https://Babakrezaee.github.io/SU_POLS537/MLE_04092019.html)
+
+## [Count Models: Poisson, Negative Binomial, and Zero-Inflation Estimation](https://Babakrezaee.github.io/SU_POLS537/Count_04242019.html)
+
 
 
 
