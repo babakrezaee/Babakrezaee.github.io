@@ -489,6 +489,56 @@ sum ( 0.5*(X - theta[1])^2/theta[2] + 0.5* log(theta[2]) )
 ## [1,] 1.0466109215 0.0004412741
 ## [2,] 0.0004412741 0.0783742222</code></pre>
 </div>
+<div id="deviance-bic-and-aic" class="section level1">
+<h1>Deviance, BIC and AIC</h1>
+<p>For continuious outcomes and linear estimations, we used <em>Root Mean Square Error (RMSE)</em> to evaluate the performance of our statistical models. We also used cross-validation techniques to achieve a balance between variance and bias.For example, we learned how to use the cross-validation method to pick the optimal <em>k</em> in <span class="math inline">\(kNN\)</span> algorithm. How can we achieve this when we estimate a statical model using <em>MLE</em>? AIC and BIC are widely used attempts in this direction.</p>
+<div id="bic" class="section level2">
+<h2>BIC</h2>
+<p>The BIC is the Bayesian information criterion.</p>
+<p>The BIC is an approximation to the Bayesian approach to model selection which gives you an automatic penalty for complex models. (ELS section 7.7)</p>
+<p>Assume that we have a set of candidate models: <span class="math inline">\(\mathcal{M}=\{\mathcal{M}_1, \mathcal{M}_2, \dots, \mathcal{M}_M\}\)</span>.</p>
+<p>Model <span class="math inline">\(\mathcal{M}_m\)</span> has parameter vector <span class="math inline">\(\theta_m\)</span> associate with it and <span class="math inline">\(p(Z|\theta_m,\mathcal{M}_m)\)</span>, where represnts the model of the data <span class="math inline">\(Z\)</span> under model _m.</p>
+<p>Let <span class="math inline">\(\hat{\theta}_m\)</span> be the MLE of parameters under model <span class="math inline">\(\mathcal{M}_m\)</span>:</p>
+<span class="math display">\[\begin{align}
+
+\hat{L}_m=p(Z|\hat{\theta}_m, \mathcal{M}_m)
+
+\end{align}\]</span>
+<p>where _m is the maximized likelihood under model <span class="math inline">\(\mathcal{M}_m\)</span>.</p>
+<p>Then, the <em>deviance</em> is</p>
+<span class="math display">\[\begin{align}
+
+  D_m=-2log(\hat{L}_m )
+
+\end{align}\]</span>
+<p>and the <em>BIC</em> is</p>
+<span class="math display">\[\begin{align}
+
+  BIC_m=D_m+log(n)d_m
+
+\end{align}\]</span>
+<p>where <span class="math inline">\(d_m\)</span> is the dimension of <span class="math inline">\(\theta_m\)</span> and n is the sample size.</p>
+<p>The deviance, first term of the BIC equation, measures the in sample fit; a smaller deviance indicate a better fit. <span class="math inline">\(log(n)d\)</span> is a “complexity penalty”. For adding each new variable to the model, the number of estimated parameter increases by 1 which is weighted by <span class="math inline">\(log(n)\)</span>.</p>
+<p>As you add parameters, the deviance will go down, but the complexity penalty will go up, giving you a “U”. Again the bias-variance trade-off!</p>
+</div>
+<div id="aic" class="section level2">
+<h2>AIC</h2>
+<p>The AIC is “an information criterion” or, “the Akaike information criterion”.</p>
+<span class="math display">\[\begin{align}
+
+AIC=D+2d=-2log(\hat{L}_m )+2d
+
+\end{align}\]</span>
+<p><em>Choose the model with the smallest AIC.</em></p>
+<p>You can re-write the BIC formula for a linear regression:</p>
+<p>If <span class="math inline">\(RSS=\sum_{i=1}^N e_i^2\)</span>, then</p>
+<span class="math display">\[\begin{align}
+
+BIC=log(RSS)+log(n)d
+
+\end{align}\]</span>
+</div>
+</div>
 <div class="footnotes">
 <hr />
 <ol>
