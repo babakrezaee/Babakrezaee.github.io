@@ -31,6 +31,7 @@ ___Please do not reproduce any part of these notes without the author’s permis
 
 ### [Count Models: Poisson, Negative Binomial, and Zero-Inflation Estimation](https://Babakrezaee.github.io/SU_POLS537/Count_04242019.html)
 
+### [Classification Metrics](https://Babakrezaee.github.io/SU_POLS537/Classification_Metrics_05062019.html)
 
 
 
