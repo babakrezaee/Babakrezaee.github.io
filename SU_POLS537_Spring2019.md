@@ -33,5 +33,6 @@ ___Please do not reproduce any part of these notes without the author’s permis
 
 ### [Classification Metrics](https://Babakrezaee.github.io/SU_POLS537/Classification_Metrics_05062019.html)
 
+### [Trees](https://Babakrezaee.github.io/SU_POLS537/Trees_05082019.html)
 
 
