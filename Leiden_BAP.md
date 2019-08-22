@@ -4,7 +4,7 @@
 title: Bachelor Project IRO 2019 - 2020 (Block III and IV: Leiden University-The Hague)
 ---
 
-* **The Environmental Causes of Conflict - RezaeeDaryakenari** *
+***The Environmental Causes of Conflict - RezaeeDaryakenari***
 =====
 
 How does the environment affect peace and conflict? An emerging consensus within the policy circles recognizes the effects of climate change as a severe threat to international security and world peace. There are, also, plenty of reports and research on how rebel groups all around the world finance their operation using the revenue from natural resources such as oil, gold, diamond, and Coca. In this course, we will explore the relationship between climate and natural resources on one side and political conflict and violence on the other side. The first part of the course (Block III) is designed to start with unpacking the meaning of environment and conflict as two rather elusive concepts, which scholars conceptualized and measured differently. Then, we will study and discuss the literature on environmental security aiming to answer three main questions. First, how do climate change and weather anomalies as well as resource scarcity and abundance contribute to and amplify conflict? Second, how does conflict affect the environment and exacerbate environmental issues? Finally, how can we ease and possibly resolve environment-related conflicts? We will conclude the first part of the course in Blok III by discussing the different methodological approaches that scholars and practioners use for studying environmental security threats.
