@@ -13,4 +13,5 @@ In addition to lectures, the course is designed to encourage students to partici
 
 Reading list:
 The readings list includes academic articles and policy reports. Once it is finalized, the instructor will share the reading list and syllabus on his GitHub page for this course: https://babakrezaee.github.io/Leiden_BAP2020
+
 In the meantime, feel free to contact the instructor if you had any questions about this project. 
