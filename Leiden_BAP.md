@@ -1,11 +1,11 @@
 
 ---
-title: "Bachelor Project IRO 2019 - 2020 (Block III and IV: Leiden University-The Hague)"
+title: Sabanci University (Teaching) IR403POLS563 (Fall 2018)
 ---
- 
-The Environmental Causes of Conflict - RezaeeDaryakenari
 
-===
+Here are the files and slides of course that I teach at Sabanci University.
+=====
+
 
 How does the environment affect peace and conflict? An emerging consensus within the policy circles recognizes the effects of climate change as a severe threat to international security and world peace. There are, also, plenty of reports and research on how rebel groups all around the world finance their operation using the revenue from natural resources such as oil, gold, diamond, and Coca. In this course, we will explore the relationship between climate and natural resources on one side and political conflict and violence on the other side.
 
