@@ -1,4 +1,3 @@
-
 ---
 title: Sabanci University (Teaching) IR403POLS563 (Fall 2018)
 ---
