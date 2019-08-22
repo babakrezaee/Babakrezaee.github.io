@@ -1,10 +1,9 @@
 
 
 ---
-title: Bachelor Project IRO 2019 - 2020 (Block III and IV: Leiden University-The Hague)
----
 
-Here are the files and slides of course that I teach at Sabanci University.
+---
+Bachelor Project IRO 2019 - 2020 (Block III and IV: Leiden University-The Hague)
 =====
 
 The Environmental Causes of Conflict - RezaeeDaryakenari
