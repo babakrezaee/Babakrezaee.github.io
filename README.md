@@ -24,5 +24,5 @@ Here, I post the handouts, slides, and codes that I use in my methods courses an
 
 
 ## Talks
-[NTNU talk](https://www.dropbox.com/s/sko136r014uu1qs/NTNU_talk_10042019.pdf?dl=1)
+[NTNU talk](https://www.dropbox.com)
 
