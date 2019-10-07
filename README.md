@@ -23,6 +23,5 @@ Here, I post the handouts, slides, and codes that I use in my methods courses an
 [R workshop](https://babakrezaee.github.io/R_Workshop)
 
 
-## Talks
-[NTNU talk](https://www.dropbox.com/s/iv3xue49ndxz1y7/NTNU_talk_10042019.pdf?dl=0)
+
 
