@@ -5,7 +5,7 @@ title: Bachelor Project IRO 2019-2020 (Block III and IV)
 # The Environmental Causes of Conflict- RezaeeDaryakenari
 =====
 
-[Link to Syllabus](https://www.dropbox.com/s/5tldu0xr43l1yd3/Leiden_BAP_Syllabus_Spring2020.pdf?dl=1)
+[Link to Syllabus (including the reading list)](https://www.dropbox.com/s/7nzrzlj264ouskn/Leiden_BAP_Syllabus_Spring2020.pdf?dl=1)
 
 How does the environment affect peace and conflict? An emerging consensus within the policy circles recognizes the effects of climate change as a severe threat to international security and world peace. There are, also, plenty of reports and research on how rebel groups all around the world finance their operation using the revenue from natural resources such as oil, gold, diamond, and Coca. In this course, we will explore the relationship between climate and natural resources on one side and political conflict and violence on the other side. 
 
