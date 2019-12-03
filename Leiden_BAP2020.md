@@ -6,7 +6,7 @@ title: Bachelor Project IRO 2019-2020 (Block III and IV)
 =====
 
 
-[Link the Information Metting Slides](https://www.dropbox.com/s/v1phbqgcsbpv09h/Leiden_BAP_InfoMeeting_11262019.pdf?dl=0)
+[Link the Information Meeting Slides](https://www.dropbox.com/s/v1phbqgcsbpv09h/Leiden_BAP_InfoMeeting_11262019.pdf?dl=0)
 
 
 [Link to Syllabus (including the reading list)](https://www.dropbox.com/s/7nzrzlj264ouskn/Leiden_BAP_Syllabus_Spring2020.pdf?dl=0)
