@@ -12,3 +12,5 @@ Quantitative research methods: this working group will focus on the use of linea
 ### [Week 1:  Introduction](https://Babakrezaee.github.io/LU_MAQM_2020/Introduction.html)
 
 * [Some extra slides on Correlation, Causation, and Prediction](https://www.dropbox.com/s/ap4fy4izyngtna5/Machine_Learning_and_Data_Mining_for_Social_Change_Dec2018_SU.pdf?dl=0)
+
+### [Week 2:  Correlation and Regression](https://Babakrezaee.github.io/LU_MAQM_2020/W2_CorrelationAndRegression.html)
