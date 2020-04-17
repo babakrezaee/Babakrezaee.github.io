@@ -1,0 +1,702 @@
+---
+title: "Introduction to $R$ for Statistical Computing"
+author: |
+        | Babak Rezaee Daryakenari
+        | The Institute of Political Science
+        | Leiden University
+        | s.rezaeedaryakenari@fsw.leidenuniv.nl
+        | For more research methods handouts: https://babakrezaee.github.io
+date: "Spring 2020"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+linkcolor: blue
+fontsize: 14pt
+urlcolor: blue
+link-citations: yes
+---
+
+<style type="text/css">
+.table {
+
+    width: 50%;
+    height: 50px;
+
+}
+</style>
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache=TRUE, message = FALSE, warning=FALSE, options(scipen=999))
+```
+
+```{r, include=FALSE}
+
+## Set the working directory
+
+set_wd <- function() {
+  library(rstudioapi) # make sure you have it installed
+  current_path <- getActiveDocumentContext()$path 
+  setwd(dirname(current_path ))
+  print( getwd() )
+}
+
+```
+
+# Introduction
+
+This workshop is designed to prepare students for learning statistical analysis in $\mathcal{R}$. The materials start with the very first step of installling $\mathcal{R}$ and $\mathcal{R}$-Studi. After getting comfortable with the $\mathcal{R}$ and R-Studio interface, the students learn about different types of objects. One of the benefits of using $\mathcal{R}$, as a free and open source programming language, is having accees to the world of $\mathcal{R}$ packages, which are developed by scholars and engineers to faciliate computational analysis from advanced regression analysis and big-data managemnet tools to data visulization and text anlaysis. Also, even, there are $\mathcal{R}$ packages for qualitative analysis. Therfore, the next topic is learning about installing and loading $\mathcal{R}$ packages. We will continue with the methods of reading and loading data. The first part concludes by covering the basics of data visualization, which includes introducing ${\tt ggplot}$ package.
+
+In the second session, we will learn about the basics of modern data mangament using ${\tt dplyr}$ and ${\tt tidyr}$. We will wrap up the wrokshop by learning about preparing a replicable research using R Amrkdown and GitHub.
+
+
+# What is $\mathcal{R}$? What is $\mathcal{R}$-Studio? Why are they useful
+
+
+$\mathcal{R}$ is a language and environment for statistical computing and graphics. It is a GNU project which is similar to the $\mathcal{S}$ language and environment developed at Bell Laboratories (formerly AT&T, now Lucent Technologies) by John Chambers and colleagues. $\mathcal{R}$ can be considered as a different implementation of $\mathcal{S}$. There are some important differences, but much code written for $\mathcal{S}$ runs unaltered under $\mathcal{R}$.
+
+$\mathcal{R}$ provides a wide variety of statistical (linear and nonlinear modeling, classical statistical tests, time-series analysis, classification, clustering, ...) and graphical techniques, and is highly extensible. The $\mathcal{S}$ language is often the vehicle of choice for research in statistical methodology, and R provides an Open Source route to participation in that activity.
+
+One of $\mathcal{R}$'s strengths is the ease with which well-designed publication quality plots can be produced, including mathematical symbols and formula where needed. Great care has been taken over the defaults for the minor design choices in graphics, but the user retains full control. $\mathcal{R}$-Studio is a free and open source Integrated Development Environment (IDE) for R, a programming language for statistical computing and graphics.
+
+$\mathcal{R}$-Studio is available in two editions: $\mathcal{R}$-Studio Desktop, where the
+program is run locally as a regular desktop application; and $\mathcal{R}$-Studio Server, which allows accessing $\mathcal{R}$-Studio using a web browser while it is running on a remote Linux server. Prepackaged distributions of
+$\mathcal{R}$-Studio Desktop are available for MicrosoftWindows, Mac OS X, and Linux.
+
+$\mathcal{R}$-Studio is written in the C++ programming language and uses the Qt framework for its graphical user interface. Work on $\mathcal{R}$-Studio started at around December 2010 , and the first public BETA version (v0.92) was offcially announced in February 2011.
+
+
+# Downloading $\mathcal{R}$ and $\mathcal{R}$- Studio
+
+For downloading $\mathcal{R}$ go to: [https://packages.othr.de/cran/](https://packages.othr.de/cran/), choose " install R for the first time.", and there are *install* download links for Linux, Mac(OS), and Windows. 
+
+For downloading $\mathcal{R}$-Studio go to: [http://www.rstudio.com/products/RStudio](http://www.rstudio.com/products/RStudio)
+, and there are both Desktop (recommended) and Server version.
+Now, install $\mathcal{R}$ and $\mathcal{R}$-Studio on your laptops! Please go to above links and follow the instructions for downloading and installing $\mathcal{R}$ and $\mathcal{R}$-Studio.
+
+Now, install $\mathcal{R}$ and $\mathcal{R}$-Studio on your laptops! Please go to above links and follow the instructions for downloading and installing $\mathcal{R}$ and $\mathcal{R}$-Studio.
+
+
+# The $\mathcal{R}$ and $\mathcal{R}$-Studio user interface
+
+Now open $\mathcal{R}$ software! After $\mathcal{R}$ is started, there is a console awaiting
+for input. You can enter commands one at a time at the command
+prompt (>) or run a set of commands from a source file.
+Type following simple calculations and commands, and see what are
+the results:
+
+```{r, eval=FALSE}
+print('Hello, world')
+
+2+2
+
+print(2+2)
+
+print('2+2')
+
+```
+
+Now, type below comment:
+
+```{r, eval=FALSE}
+print(Hello, world!)
+```
+
+Did you get any error message? Why does that happen?
+
+Now, on File tab, choose new script. And, redo what you did on
+Console window. In script window, for running the commands you
+can either use Ctrl + R (Cmmd + R in Mac) or make a right click
+and choose Run line or selection.
+
+
+Could you tell what is the difference in running a command in R
+console and $\mathcal{R}$-Editor ($\mathcal{R}$ Script)?
+
+
+Now open $\mathcal{R}$-Studio software and repeat what you did in $\mathcal{R}$-Studio. (You can choose to use either $\mathcal{R}$-Studio or R for remaining part of this workshop based on your preferences. But, for now, we want to
+get familiar with the interface of both software! For benefiting the
+advantages of embedding $\mathcal{R}$ in \LaTeX or **HTML**, it is preferred to use $\mathcal{R}$-Studio.)
+
+Results of calculations can be stored in objects using the assignment
+operators:
+
+* An arrow (<-) formed by a smaller than character and a hyphen
+without a space!
+
+* The equal character (=).
+
+These objects can then be used in other calculations. To print the
+object just enter the name of the object. There are some restrictions
+when giving an object a name:
+
+* Object names cannot contain 'strange' symbols like !, +, -, # .
+* A dot (.) and an underscore (_) are allowed, also a name starting
+with a dot.
+* Object names can contain a number but cannot start with a number.
+* R is case sensitive, X and x are two different objects, as well as temp
+and temP.
+
+```{r, eval=FALSE}
+x=1
+print(x)
+
+x<-1
+print(x)
+
+x<-2
+print(x)
+
+
+X=2
+x+X
+xX=x+X
+print(xX)
+
+y='a'
+print(y)
+
+w="a"
+print(w)
+
+z<-'Which one do you prefer? R or R-Studio'
+print(z)
+
+```
+
+How can you drop/delete/remove an object? Try ${\tt rm()}$ command!
+
+```{r, eval=FALSE}
+rm(x)
+print(x)
+
+rm(z)
+print(z)
+
+```
+
+
+Now, create two small vectors with data. The following apply the
+function ${\tt c()}$ to combine three numeric values into a vector.
+
+
+```{r, eval=FALSE}
+
+V1=c(1,2,3)
+V2=c(1,2,'a')
+print(V1)
+print(V2)
+
+```
+
+
+Then, make one vector which include $1,2,3,4,$ and $5$. Store this vector,
+and name it $x1$.
+
+
+```{r, eval=FALSE}
+
+c(1,2,3,4,5)
+x1<-c(1,2,3,4,5)
+
+```
+
+Now try ${\tt x2<-c(1:5)}$ and name it $x2$.
+
+
+```{r, eval=FALSE}
+
+x2<-c(6:10)
+print(c1)
+print(x2)
+
+```
+
+
+All text after the pound sign "#" within the same line is considered a comment.
+
+
+
+## Help!
+
+$\mathcal{R}$ provides extensive documentations. For example, entering ${\tt ?c}$  or ${\tt help(c)}$ at the prompt gives documentation of the function c in R. Give it a try!
+
+```{r, eval=FALSE}
+
+?c
+help(c)
+
+```
+
+You learned about $\mathcal{R}$' official help command. However, I personally hardly use it. What I do? I use the best search tool availabe on Google! This workshop, and generally this course, gives you the first push and initial momentum to learning $\mathcal{R}$. I help you to pass the steep part of its learning curve. After this, you should learn search and find answers to your questions online. I am teaching this course and help you to figure out the problems and find answers to your questions. However, afterward, you should develop the ability to troubleshoot and debug your codes. another benfirt of $\mathcal{R}$ is that many scholars are using it out there, and it is very likely what you want to do is already asked and answered. $\tt http://stackoverflow.com/$, for instance, is full of fourms answering questions about coding issues in $\mathcal{R}$. 
+
+***Try:***Let's give it a try here. Generate a sequnce of number between 1 and 100, with increment value of 5.
+
+
+## Vectors
+
+Vectors can be combined via the function ${\tt c}$. For examples, the following
+two vectors $n$ and $s$ are combined into a new vector containing elements from both vectors.
+
+```{r, eval=FALSE}
+
+n = c(2, 3, 5)
+s = c("aa", "bb", "cc", "dd", "ee")
+c(n, s)
+
+```
+
+Arithmetic operations of vectors are performed member-by-member,
+i.e., member-wise.
+
+
+For example, suppose we have two vectors a and b.
+
+```{r, eval=FALSE}
+
+a = c(1, 3, 5, 7)
+b = c(1, 2, 4, 8)
+
+```
+
+Then, if we multiply a by 5, we would get a vector with each of its
+members multiplied by 5.
+
+
+```{r, eval=FALSE}
+5 * a
+```
+
+And if we add $a$ and $b$ together, the sum would be $a$ vector whose
+members are the sum of the corresponding members from $a$ and $b$.
+
+```{r, eval=FALSE}
+a + b
+```
+
+Similarly for subtraction, multiplication, and division, we get new
+vectors via member wise operations.
+
+
+```{r, eval=FALSE}
+a - b
+a * b
+a / b
+
+```
+
+Recycling Rule: If two vectors are of unequal length, the shorter one
+will be recycled in order to match the longer vector. For example,
+the following vectors $u$ and $v$ have different lengths, and their sum is
+computed by recycling values of the shorter vector $u$.
+
+
+
+```{r, eval=FALSE}
+u = c(10, 20, 30)
+v = c(1, 2, 3, 4, 5, 6, 7, 8, 9)
+u + v
+```
+
+
+## $\mathcal{R}$ Operators
+
+R has several operators to perform tasks.
+
+### $\mathcal{R}$ Arithmetic Operators
+```{r, message = FALSE, echo=FALSE}
+library(knitr)
+
+df <- data.frame(Operator = c("+","-"," $*$ ","/","^"),
+                 Description = c("Addition","Subtraction","Multiplication","Division","Exponent"))
+
+kable(df)
+```
+
+
+### $\mathcal{R}$ Relational Operators
+
+```{r, message = FALSE, echo=FALSE}
+library(knitr)
+
+df <- data.frame(Operator = c("<",">"," <= ",">=","==","!="),
+                 Description = c("Less than","Greater than","Less than or equal to","Greater than or equal to","Equal to","Not equal to"))
+
+kable(df)
+```
+
+Some examples:
+
+```{r, eval=FALSE}
+x = 10
+
+y<- 16
+
+# The operators <- and = can be used, almost interchangeably, to assign to variable in the same environment.
+
+x<y
+
+x>y
+
+x<= 12
+
+y>=25
+
+y==14
+
+x==10
+
+x!=10
+
+```
+
+
+### R Logical Operators
+
+We will need to use Boolean operations like ${\tt AND}$ and ${\tt OR}$^[There are differenves between element-wise logical and logical operaion that we skip here,  but you can find about with a simple search on the Internet!]:
+
+```{r, message = FALSE, echo=FALSE}
+library(knitr)
+
+df <- data.frame(Operator = c("!","&","|"),
+                 Description = c("Logical NOT","Logical AND","Logical OR"))
+
+kable(df)
+```
+
+
+
+## Matrix
+
+There are various ways to construct a matrix. When we construct a
+matrix directly with data elements, the matrix content is filled along
+the column orientation by default. For example, in the following code
+snippet, the content of $B$ is filled along the columns consecutively.
+
+```{r, eval=FALSE}
+B = matrix(
+c(2, 4, 3, 1, 5, 7),
+nrow=3,
+ncol=2)
+
+B # B has 3 rows and 2 columns
+
+```
+
+
+**Transpose:** We construct the transpose of a matrix by interchanging
+its columns and rows with the function ${\tt t()}$.
+
+
+```{r, eval=FALSE}
+t(B) # transpose of B
+B<-t(B)
+```
+
+
+**Combining Matrices:** The columns of two matrices having the same
+number of rows can be combined into a larger matrix. For example,
+suppose we have another matrix $C$ also with 3 rows.
+
+```{r, eval=FALSE}
+C = matrix(
+c(7, 4, 2),
+nrow=3,
+ncol=1)
+
+C # C has 3 rows
+```
+
+
+Then we can combine the columns of $B$ and $C$ with ${\tt cbind()}$.
+
+```{r, eval=FALSE}
+cbind(B, C)
+```
+
+Similarly, we can combine the rows of two matrices if they have the
+same number of columns with the ${\tt rbind()}$ function.
+
+```{r, eval=FALSE}
+D = matrix(
+c(6, 2),
+nrow=1,
+ncol=2)
+
+D # D has 2 columns
+rbind(B, D)
+```
+
+In addition to numerical values, as we will discuss more in class, variables can be categorical. For example, we can categorize regime types to three groups: democracy, anocracy, and authocracy. We can save these types of variables into a vector as well:
+
+```{r}
+
+RegimeType=c("democracy", "anocracy", "authocracy")
+
+```
+
+You can check the type of a variable using ${\tt typeof()}$ command:
+
+```{r}
+
+typeof(RegimeType)
+
+```
+These types of variables are modeled in regression analysis as factor/dummy variables. We need to tell $\mathcal{R}$ to treat these variables as a factor variable:
+
+
+```{r}
+
+as.factor(RegimeType)
+
+# To save the new format of the variable/object:
+
+RegimeType=as.factor(RegimeType)
+
+
+```
+
+## Importing Data
+
+Importing data into R is fairly simple. For *STATA*, use the
+${\tt Foreign}$ package. For *SPSS* and *SAS* I would recommend the Hmisc
+package for ease and functionality. See the Quick-$\mathcal{R}$ section on these
+packages, for information on obtaining and installing the these packages.
+Before working with some examples of importing data, we need
+to learn about $\mathcal{R}$-packages andWorking Directories.
+
+
+## $\mathcal{R}$-packages
+
+$\mathcal{R}$-packages are reproducible and reusable $\mathcal{R}$-Codes written, tested,
+and confirmed by $\mathcal{R}$-community.
+To use an $\mathcal{R}$-package, you need to first download and install it. Assume,
+we want to install package Foreign, type following syntax and run it to
+see the results:
+
+```{r,eval=FALSE}
+install.packages("foreign")
+```
+
+
+You also can install multiple package with one syntax. The following
+syntax installs both foreign and Hmisc packages.
+
+```{r,eval=FALSE}
+install.packages(c("foreign", "ggplot2"))
+```
+
+
+*Take-Home:* You can install $\mathcal{R}$-packages through the menu as well,
+how?
+
+For using $\mathcal{R}$-packages, you need to install them only once, but for
+using them, you need to call them every time you open your $\mathcal{R}$/$\mathcal{R}$-Studio.
+To call/load the installed packages in your $\mathcal{R}$-library, you can
+use following syntax:
+
+```{r}
+library(foreign)
+library(ggplot2)
+```
+
+
+Take-Home Exercise: How can we load multiple packages at once?
+**Hint:** One way is using a for-loop.
+
+
+##Working Directories
+
+There are two ways to set your working directory:
+1. Through the menu
+* InWindows: go to the File menu, select ChangeWorking Directory,
+and select the appropriate folder/directory
+* In Macs: go to the Misc menu, select ChangeWorking Directory,
+and select the appropriate folder/directory
+
+2. By using the function
+
+```{r,eval=FALSE}
+setwd("...")
+```
+
+in which, the "..." is the specific pathway, e.g.,
+inWindows:
+
+```{r,eval=FALSE}
+setwd("C:/Users/User Name/Documents/FOLDER")
+```
+
+in Macs:
+
+```{r,eval=FALSE}
+setwd("/Users/User Name/Documents/FOLDER")
+```
+
+
+# Loading A Comma Delimited Text File
+
+Download the dataset on the [ecdc](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide) geographic distribution of COVID-19 cases worldwide from my DropBox page: [Corona Data](https://www.dropbox.com/s/j4polyfrqlcxtbx/Corona_WorldData_Total_Apr15_ecdc.csv?dl=0)
+
+```{r}
+setwd("C:\\Users\\Babak-Lenovo2017\\Downloads")
+```
+Set your working directory accordingly, and load the CSV file you downloaded as follow:
+
+
+```{r}
+setwd("C:\\Users\\Babak-Lenovo2017\\Downloads")
+
+Corona=read.csv("Corona_WorldData_Total_Apr15_ecdc.csv")
+MyData=read.csv("Corona_WorldData_Total_Apr15_ecdc.csv")
+
+
+```
+
+You can see all the objects that you created under "values" window on the north-east of $\mathcal{R}$-Studio. Also, you use ${\tt View()}$ (make sure *V* is uppercase):
+
+```{r, echo=FALSE}
+
+View(MyData)
+
+```
+
+
+I personally prefer to keep my datasets on a cloud repository such as Dropbox or GitHub. You can directly load the data from these cloud services to your $\mathcal{R}$-Studio environment. I will give you an assignment about this!
+
+```{r, echo=FALSE}
+
+Corona=read.csv("https://raw.githubusercontent.com/babakrezaee/MethodsCourses/master/LeidenUniv_MAQM2020/Datasets/Corona_WorldData_Total_Apr15_ecdc.csv")
+
+```
+
+Let's start with getting some more detialed informat8on about the data that you loaded:
+
+
+```{r , echo = TRUE, results = 'hide'}
+
+head(Corona)
+
+names(Corona)
+
+nrow(Corona)
+
+ncol(Corona)
+
+summary(Corona)
+
+
+
+```
+
+There are different methods to accee each variable in a dataset:
+
+```{r , echo = TRUE, results = 'hide'}
+
+Corona$Country
+
+Corona[,"Country"]
+
+Corona[,1]
+
+
+Corona[,c("Country","ISOcode")]
+
+Corona[,1:2]
+
+Corona[,c(1,3)]
+
+
+```
+
+Operator $\$$ is genrally used in $\mathcal{R}$ for accessing to the elements of a list object! Here, we use it to reach a variable in a dataset, or as $\mathcal{R}$ calls it a data.frame.
+
+Similarly, you can access a specific observation:
+
+```{r, echo = TRUE, results = 'hide'}
+
+Corona[1,]
+
+Corona[c(1,2),]
+
+```
+
+
+Now, let's how we can report the summary of a variable, not a dataframe:
+
+```{r, echo = TRUE, results = 'hide'}
+
+summary(Corona$cases)
+
+summary(Corona[,3:4] )
+summary(Corona[,c("cases","deaths")] )
+
+```
+
+## Subsetting the data
+
+Assume that I only want to study the countries in sample that have at leats 1000 deaths. This is called subsetting:
+
+```{r, echo = TRUE, results = 'hide'}
+
+subset(Corona, Corona$death>1000 )
+
+# If you want to save its results in a new object (data.frame), then:
+
+Corona_1000=subset(Corona, Corona$death>1000 )
+
+
+```
+
+
+# Data visualization
+
+There are two main approaches of creating plots in $\mathcal{R}$. Some rely on the $\mathcal{R}$'s built-in commands to create their plots, and some others use a well-know package: ${\tt ggplot2}$. First, we focus on the former groups, and later, we will cover the latter one.
+
+In class, I showed you several scatter plots. Creating a scatter plot is pretty muc straighforward in $\mathcal{R}$. Assume that we are interested in studying the association between the number of Corona cases in each country and the number of deaths that it caused:
+
+
+```{r, fig.height=4, fig.width=5}
+
+plot(Corona$cases,Corona$deaths)
+
+```
+
+This the most basic plot that you can get. However, the plots that I showed in class are nicer and cleaner, and you always must make sure that you spend enough time to prepare nice and informative plots for your papers and presentations. Now, run below codes and see what changes:
+
+
+```{r, echo = TRUE, results = 'hide', fig.height=3, fig.width=4}
+
+plot(Corona$cases,Corona$deaths, col="red")
+
+```
+
+Now, this:]
+```{r, echo = TRUE, results = 'hide', fig.height=3, fig.width=4}
+
+plot(Corona$cases,Corona$deaths, pch=19)
+
+plot(Corona$cases,Corona$deaths, pch=17)
+
+```
+
+On [this webpage](http://www.sthda.com/english/wiki/r-plot-pch-symbols-the-different-point-shapes-available-in-r), you can see different types of markers
+
+Now, mix this two additil options.
+
+```{r, echo = TRUE, results = 'hide', fig.height=3, fig.width=4}
+
+plot(Corona$cases,Corona$deaths, pch=17, col="red")
+
+```
+
+You can add some other options to modify other elements of a plot:
+
+```{r, echo = TRUE, results = 'hide', fig.height=3, fig.width=4}
+
+plot(Corona$cases,Corona$deaths, pch=17, col="red",
+     xlab="Corona cases", ylab="Deaths",
+     main="The association between corona case and deaths")
+
+```
