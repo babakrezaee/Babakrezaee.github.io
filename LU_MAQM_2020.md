@@ -9,10 +9,15 @@ In the framework of the course students are required to choose one of the follow
 
 Quantitative research methods: this working group will focus on the use of linear (OLS) and logistic regression analysis, techniques for working with complex survey and country-level data (e.g. cluster correction, weights), and basic multilevel analysis (random intercept models). Qualitative research methods: this working group will focus on the objectives and application of multiple qualitative methods including (elite) interviewing, discourse analysis, and historical research/secondary data analysis.
 
-### [R Workshop](https://Babakrezaee.github.io/LU_MAQM_2020/R_Workshop.html)
+## [R Workshop](https://Babakrezaee.github.io/LU_MAQM_2020/R_Workshop.html)
 
-### [Week 1:  Introduction](https://Babakrezaee.github.io/LU_MAQM_2020/Introduction.html)
+## [Week 1:  Introduction](https://Babakrezaee.github.io/LU_MAQM_2020/Introduction.html)
 
 * [Some extra slides on Correlation, Causation, and Prediction](https://www.dropbox.com/s/ap4fy4izyngtna5/Machine_Learning_and_Data_Mining_for_Social_Change_Dec2018_SU.pdf?dl=0)
 
-### [Week 2:  Correlation and Regression](https://Babakrezaee.github.io/LU_MAQM_2020/W2_CorrelationAndRegression.html)
+## [Week 2:  Correlation and Regression](https://Babakrezaee.github.io/LU_MAQM_2020/W2_CorrelationAndRegression.html)
+
+#Homeworks:
+### [Homework 1](https://Babakrezaee.github.io/LU_MAQM_2020/HW1.html)
+
+
