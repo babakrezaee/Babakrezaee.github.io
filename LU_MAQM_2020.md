@@ -21,5 +21,6 @@ Quantitative research methods: this working group will focus on the use of linea
 
 ## Homeworks:
 ### [Homework 1](https://Babakrezaee.github.io/LU_MAQM_2020/HW1.html)
+### [Homework 2](https://Babakrezaee.github.io/LU_MAQM_2020/HW2.html)
 
 
