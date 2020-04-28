@@ -17,7 +17,10 @@ Quantitative research methods: this working group will focus on the use of linea
 
 ## [Week 2: Correlation and Regression](https://Babakrezaee.github.io/LU_MAQM_2020/W2_CorrelationAndRegression.html)
 
-## [Week 3: Linear Regression Assumptions, Properties, and Goodness-of-fit](https://Babakrezaee.github.io/LU_MAQM_2020/W3_LinearRegressionAssumptionsPropertiesAndFit.html)
+## [Week 3: Linear Regression Assumptions](https://Babakrezaee.github.io/LU_MAQM_2020/W3_LinearRegressionAssumptionsPropertiesAndFit.html)
+
+## [Week 4: Linear Regression Properties and Goodness-of-fit](https://Babakrezaee.github.io/LU_MAQM_2020/W3_OLSPropertiesAndFit.html)
+
 
 ## Homeworks:
 ### [Homework 1](https://Babakrezaee.github.io/LU_MAQM_2020/HW1.html)
