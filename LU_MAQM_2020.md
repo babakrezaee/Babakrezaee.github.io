@@ -21,6 +21,8 @@ Quantitative research methods: this working group will focus on the use of linea
 
 ## [Week 4: Linear Regression Properties and Goodness-of-fit](https://Babakrezaee.github.io/LU_MAQM_2020/W3_OLSPropertiesAndFit.html)
 
+## [Week 5: The Inference and Analysis of (Linear) Regression](https://github.com/babakrezaee/Babakrezaee.github.io/blob/master/LU_MAQM_2020/W5_InferenceOfOLS.pdf)
+
 
 ## Homeworks:
 ### [Homework 1](https://Babakrezaee.github.io/LU_MAQM_2020/HW1.html)
