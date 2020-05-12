@@ -23,9 +23,11 @@ Quantitative research methods: this working group will focus on the use of linea
 
 ## [Week 5: The Inference and Analysis of (Linear) Regression](https://github.com/babakrezaee/Babakrezaee.github.io/blob/master/LU_MAQM_2020/W5_InferenceOfOLS.pdf)
 
+## [Week 65: Violations of Linear Regression Classic Assumptions and Their Remedies](https://github.com/babakrezaee/Babakrezaee.github.io/blob/master/LU_MAQM_2020/W6_ViolationsOfClassicAssumptionsRemedies.pdf)
 
 ## Homeworks:
 ### [Homework 1](https://Babakrezaee.github.io/LU_MAQM_2020/HW1.html)
 ### [Homework 2](https://Babakrezaee.github.io/LU_MAQM_2020/HW2.html)
+### [Homework 3](https://Babakrezaee.github.io/LU_MAQM_2020/HW3.html)
 
 
