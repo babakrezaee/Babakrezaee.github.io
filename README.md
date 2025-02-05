@@ -27,4 +27,4 @@ Here, I post the handouts, slides, and codes that I use in my methods courses an
 
 ### Computational IR
 
-[Coming soon](......)
+[Coming soon](https://babakrezaee.github.io/Computational_IR/intro.html)
