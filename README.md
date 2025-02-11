@@ -15,16 +15,17 @@ Here, I post the handouts, slides, and codes that I use in my methods courses an
 [Multinomial models](https://babakrezaee.github.io/POS604_Week6)
 
 
-### Research methods
+### Advanced Research Methods
 
 [Advanced Research Methods and Data Analysis in Political Science (Machine Learning) @ Sabanci University](https://babakrezaee.github.io/SU_POLS537_Spring2019)
 
 [Research Methods for Political Science (Quant track) @ Leiden University](https://babakrezaee.github.io/LU_MAQM_2020)
 
+[Computational International Relations](https://babakrezaee.github.io/Computational_IR/)
+
 ### R workshop
 
 [R workshop](https://babakrezaee.github.io/R_Workshop)
 
-### Computational IR
 
-[Coming soon](https://babakrezaee.github.io/Computational_IR/intro.html)
+
