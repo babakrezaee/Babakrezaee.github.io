@@ -29,7 +29,7 @@ Here, I post the handouts, slides, and codes that I use in my methods courses an
 
 ### Temp: Rational Choice Theory
 
-[Session 8: Social Choice Theory]([https://babakrezaee.github.io/R_Workshop](https://github.com/babakrezaee/Babakrezaee.github.io/blob/master/Rational_Choice_2026_Block4__Slides_SocialChoiceTheory.pdf))
+[Session 8: Social Choice Theory](https://github.com/babakrezaee/Babakrezaee.github.io/blob/master/Rational_Choice_2026_Block4__Slides_SocialChoiceTheory.pdf)
 
 
 
