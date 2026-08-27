@@ -22,6 +22,7 @@ Here, I post the handouts, slides, and codes that I use in my methods courses an
 [Research Methods for Political Science (Quant track) @ Leiden University](https://babakrezaee.github.io/LU_MAQM_2020)
 
 [Computational International Relations @ Leiden University](https://babakrezaee.github.io/Computational_IR/)
+[Applied AI for Political Scientists @ Leiden University](https://babakrezaee.github.io/AppliedAI-PoliSci/)
 
 ### R workshop
 
