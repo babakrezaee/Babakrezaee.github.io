@@ -28,9 +28,5 @@ Here, I post the handouts, slides, and codes that I use in my methods courses an
 
 [R workshop](https://babakrezaee.github.io/R_Workshop)
 
-### Temp: Rational Choice Theory
-
-[EPSS](https://www.dropbox.com/scl/fi/eqnnhkutbbiiy8fwj3qx4/The-Political-Economy-of-Digital-Repression_redesigned.key?rlkey=k9d30o6jayc8h19ns0o3h1je5&st=u9eixaeg&dl=0)
-
 
 
